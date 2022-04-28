@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
+import CreatePost from "./components/CreatePost";
 import LeftBar from "./components/LeftBar";
 import MiddleBar from "./components/MiddleBar";
 import Navigation from "./components/Navigation";
@@ -28,6 +29,7 @@ function App() {
 					<RightBar />
 				</Grid>
 			</Grid>
+			<CreatePost />
 		</div>
 	);
 }

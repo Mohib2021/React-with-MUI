@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
 		},
 	},
 	searchInput: {
-		color: "white",
+		color: "white !important",
 		width: "100%",
 	},
 	badgeIcons: {

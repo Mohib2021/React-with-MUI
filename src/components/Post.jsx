@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	cardImg: {
 		objectFit: "cover",
-		height: "470px",
+		height: "300px",
 	},
 	cardHeading: {
 		marginBottom: "0.5rem !important",
